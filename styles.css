@@ -4,9 +4,13 @@
     padding: 0;
     border: 0;
 }
-
+body {
+    text-align: center;
+    background-color: rgb(247, 232, 69);
+    color: rgb(46, 46, 46);
+}
 .header {
-    background-color: lightgrey;
+    background-color: orange;
 }
 
 .content {
@@ -64,14 +68,37 @@
     color: black;
     text-decoration: none;
 }
+.centr{
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+}
 
-
+.first{
+  background:#ce1474;
+}
+.second{
+  background:#07a019;
+}
+table{
+    width: 100%;
+    font-family: 'Space Mono', monospace;
+    
+}
+table,th,td{
+    border: 1px solid rgb(3, 103, 243);
+    border-color: black;
+    text-align: center;
+    height:50px;
+}
+li {
+    list-style-type: none;
+}
 
 
 
 footer {
     color: #ffffff;
-    background-color: rgb(24, 192, 154);
+    background-color: orange;
     margin-top: 50px;
     left: 0;
     bottom: 0;

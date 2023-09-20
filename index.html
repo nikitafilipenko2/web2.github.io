@@ -37,9 +37,9 @@
         </div>
     </header>
     <main>
-        <div class="content">
+        <div class="content" class="bordered">
     <h1 id="task1">Главная страница</h1>
-    <p>Список ссылок:</p>
+    <h1 class="centr">Список ссылок:</h1>
     <ul>
         <li><a href="http://kubsu.ru/">Абсолютная ссылка на главную страницу сайта КубГУ</a></li>
         <li><a href="https://kubsu.ru/"> Абсолютная ссылка на главную страницу сайта КубГУ в протоколе https</a></li>
@@ -90,31 +90,47 @@
     </map>
     <img usemap="#infog" src="figures.png" alt="">
     <br>
-    <h2 id="table">Таблица</h2>
-<table>
-    <tr>
-        <th>Колонка 1</th>
-        <th>Колонка 2</th>
-        <th>Колонка 3</th>
-    </tr>
-    <tr>
-        <td>Ячейка 11</td>
-        <td>Ячейка 12</td>
-        <td rowspan="2">Ячейки 13 и 23</td>
-    </tr>
-    <tr>
-        <td colspan="2">Ячейки 21 объединенная с 22</td>
-    </tr>
-    <tr>
-        <td>Ячейка 31</td>
-        <td>Ячейка 32</td>
-        <td>Ячейка 33</td>
-    </tr>
-    <tr>
-        <td colspan="3">Ячейки 41, 42 и 43</td>
-    </tr>
-</table>
-    <h1 id="form">Форма</h1>
+    <h2 id="table" class="centr" class="bordered">Таблица</h2>
+    <table>
+        <tr class="first">
+            <th>Колонка 1 </th>
+            <th>Колонка 2 </th>
+            <th>Колонка 3 </th>
+            <th>Колонка 4 </th>
+        </tr>
+        <tr class="second">
+            <td colspan="2">Ячейка 11 объединенная с 12</td>
+            <td>Ячейка 13</td>
+            <td>Ячейка 14</td>
+        </tr>
+        <tr class="first">
+            <td>Ячейка 21</td>
+            <td>Ячейка 22</td>
+            <td colspan="2">Ячейка 23 объединенная с 24</td>
+        </tr>
+        <tr class="second">
+            <td>Ячейка 31</td>
+            <td colspan="3">Ячейка 32 объединенная с 33 и 34</td>
+            
+        </tr>
+        <tr class="first">
+            <td colspan="2">Ячейка 41 объединенная с 42</td>
+            <td>Ячейка 43</td>
+            <td>Ячейка 44</td>
+        </tr>
+        <tr class="second">
+            <td>Ячейка 51</td>
+            <td>Ячейка 52</td>
+            <td rowspan="2">Ячейка 53 объединенная с 63</td>
+            <td>Ячейка 54</td>
+        </tr>
+        <tr class="first">
+            <td>Ячейка 61</td>
+            <td>Ячейка 62</td>
+            <td>Ячейка 64</td>
+        </tr>
+    </table>
+    <h1 class="centr" id="form" class="bordered">Форма</h1>
     <form method="POST">
         <label>
             ФИО:<br>
